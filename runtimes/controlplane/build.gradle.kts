@@ -43,7 +43,7 @@ plugins {
 }
 
 dependencies {
-    runtimeOnly(project(":extensions:example-extension"))
+//    runtimeOnly(project(":extensions:example-extension"))
     runtimeOnly(libs.edc.spi.core) // we need some constants
 
     runtimeOnly(libs.bundles.controlplane)

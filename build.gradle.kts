@@ -42,13 +42,13 @@ allprojects {
             metaModel.set(metaModelVersion)
         }
         pom {
-            scmUrl.set("https://github.com/OWNER/REPO.git")
-            scmConnection.set("scm:git:git@github.com:OWNER/REPO.git")
-            developerName.set("yourcompany")
-            developerEmail.set("admin@yourcompany.com")
-            projectName.set("your cool project based on EDC")
-            projectUrl.set("www.coolproject.com")
-            description.set("your description")
+            scmUrl.set("https://github.com/Ijusttyped/edc-dicomweb-transfer.git")
+            scmConnection.set("scm:git:git@github.com:Ijusttyped/edc-dicomweb-transfer.git")
+            developerName.set("Marcel Fernandez Rosas")
+            developerEmail.set("marcel@fernandezrosas.com")
+            projectName.set("EDC DICOMWeb Transfer")
+            projectUrl.set("https://github.com/Ijusttyped/edc-dicomweb-transfer")
+            description.set("EDC data plane extension for DICOM data transfer using DICOMWeb")
             licenseUrl.set("https://opensource.org/licenses/MIT")
         }
     }

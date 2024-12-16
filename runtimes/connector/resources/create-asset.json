@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "edc": "https://w3id.org/edc/v0.0.1/ns/"
+  },
+  "@id": "assetId",
+  "properties": {
+    "name": "Lung scan of COVID-19 patient",
+    "contenttype": "application/dicom"
+  },
+  "dataAddress": {
+    "type": "DicomWebData",
+    "name": "DICOM image of lung scan",
+    "url": "http://localhost:8042/dicom-web/studies/{StudyInstanceUID}",
+    "username": "orthanc",
+    "password": "orthanc"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "https://w3id.org/edc/v0.0.1/ns/"
+  },
+  "@type": "TransferRequestDto",
+  "connectorId": "provider",
+  "counterPartyAddress": "http://localhost:19194/protocol",
+  "contractId": "{contractAgreementId}",
+  "assetId": "assetId",
+  "protocol": "dataspace-protocol-http",
+  "transferType": "DicomWebData-PUSH",
+  "dataDestination": {
+    "type": "DicomWebData",
+    "url": "http://localhost:8041/dicom-web/studies/",
+    "username": "orthanc",
+    "password": "orthanc"
+  }
+}

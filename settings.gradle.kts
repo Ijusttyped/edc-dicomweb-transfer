@@ -12,7 +12,7 @@
  *
  */
 
-rootProject.name = "template"
+rootProject.name = "edc-dicomweb-transfer"
 
 // this is needed to have access to snapshot builds of plugins
 pluginManagement {
@@ -37,6 +37,7 @@ dependencyResolutionManagement {
 }
 
 // add dependencies
-include(":extensions:example-extension")
+include(":extensions:data-plane:data-plane-dicomweb")
 include(":runtimes:controlplane")
 include(":runtimes:dataplane")
+include(":runtimes:connector")
