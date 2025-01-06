@@ -1,8 +1,8 @@
-# DICOMWeb Data Transfer Extension for Eclipse Dataspace Components (EDC)
+# DICOMWeb Data Transfer Extension for Eclipse Dataspace Components (EDC) Connectors
 
-This extension provides the capability to fetch or post data from/to a DICOMWeb endpoint when executing a data transfer scenario in [EDC](https://github.com/eclipse-edc).
+This extension provides the capability to fetch or post data from/to a DICOMWeb endpoint when executing a data transfer scenario with [EDC](https://github.com/eclipse-edc) Connectors.
 
-> Note: This extension is a sample implementation of a data transfer extension for EDC. It is not intended for production use.
+> Note: This extension is a sample implementation of a data transfer extension for EDC Connectors. It is not intended for production use.
 
 ## Quick start
 
@@ -25,4 +25,4 @@ java -Dedc.keystore=runtimes/connector/certs/cert.pfx \
 ```
 6. Execute a data transfer scenario with the templates in the [runtimes/connector/resources](runtimes/connector/resources) directory
 
-For more information on the development and usage of this extension, please refer to the [Medium article](https://medium.com/).
+For more information on the development and usage of this extension, please refer to the [Medium article](https://medium.com/@marcelfernandez_26751/secure-and-sovereign-medical-image-sharing-via-dicomweb-and-eclipse-dataspace-components-edc-4c6abcfacc88).
